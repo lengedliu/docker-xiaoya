@@ -1,6 +1,6 @@
 services:
   alist:
-    image: ghcr.nju.edu.cn/monlor/xiaoya-alist:latest
+    image: ghcr.nju.edu.cn/monlor/xiaoya-alist
     volumes:
       - xiaoya:/data
     ports:
