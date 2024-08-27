@@ -25,7 +25,7 @@ IMAGE_PROXY="${IMAGE_PROXY:=}"
 # 服务镜像
 IMAGE_TAG="${VERSION:-latest}"
 # 服务下载地址
-DOWNLOAD_URL="${GH_PROXY}https://raw.githubusercontent.com/monlor/docker-xiaoya/${VERSION:-main}"
+DOWNLOAD_URL="${GH_PROXY}https://raw.githubusercontent.com/lengedliu/docker-xiaoya/${VERSION:-main}"
 
 # 欢迎信息
 echo "欢迎使用xiaoya服务部署脚本"
